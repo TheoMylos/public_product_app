@@ -1,0 +1,180 @@
+.App {
+  width: 100%
+}
+
+body {
+  margin: 10px;
+}
+
+.title {
+  width: 50%;
+  text-align: start;
+  display: inline-block;
+
+}
+
+.container {
+  height: 90%;
+}
+
+h1 {
+  margin: 2rem;
+  margin-bottom: 1px;
+  text-align: left;
+  align-items: start;
+  display: inline-block;
+}
+
+.buttons {
+
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+
+button {
+  margin-right: 2rem;
+  box-shadow: 5px 5px;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 10%;
+
+}
+
+li {
+  text-align: center;
+
+}
+
+
+.card {
+  margin: 10px;
+  position: relative;
+  width: 250px;
+  height: 170px;
+  border: 2px solid;
+  display: flex;
+  text-align: center;
+}
+
+.delete-checkbox {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 2.5rem;
+  column-gap: 2.5rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3rem;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.footer {
+  display: grid;
+  text-align: center;
+ place-items: center;
+  max-height: 10%;
+  padding: 2rem;
+  margin-bottom: 0px;
+}
+
+form {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  width: 50%
+}
+
+form input {
+  margin: 1rem;
+  margin-left: 3rem;
+}
+
+.skufield input {
+  margin-left: 2.8rem;
+}
+
+.namefield input {
+  margin-left: 2.1rem;
+}
+
+.pricefield input {
+  margin-left: 1.1em;
+}
+
+.pricefield {
+  margin-bottom: 3rem;
+}
+
+select {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.dvd {
+
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 2px solid;
+  width: 20rem;
+  height: 16rem;
+}
+
+.dvd input {
+  margin-left: 1rem;
+}
+
+.furniture {
+  height: 16rem;
+  width: 20rem;
+  padding: 0.5rem;
+  border: 2px solid;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+
+}
+
+#height {
+  margin-left: 1.9rem;
+}
+
+#width {
+  margin-left: 2.2rem;
+}
+
+#length {
+  margin-left: 1.7rem;
+}
+
+h4 {
+  display: block;
+}
+
+h3 {
+  color: red;
+}
